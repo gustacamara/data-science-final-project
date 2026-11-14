@@ -1,0 +1,16 @@
+# Large GTEx expression matrices (download from GTEx Portal, see datasets/README.txt)
+datasets/*.gct
+datasets/*.gct.gz
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
