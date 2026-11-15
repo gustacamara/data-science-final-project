@@ -1,0 +1,19 @@
+[project]
+name = "data-science-final-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "adjusttext>=1.4.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "umap-learn>=0.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]
