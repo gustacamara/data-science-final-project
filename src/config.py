@@ -13,6 +13,7 @@ PHENOTYPES_FILE = DATASETS_DIR / "GTEx_Analysis_v11_Annotations_SubjectPhenotype
 PHENOTYPES_DICTIONARY_FILE = DATASETS_DIR / "GTEx_Analysis_v11_Annotations_SubjectPhenotypesDD.xlsx"
 FILE_PREFIX = "gene_tpm_adult_gtex_v11_brain_"
 L1_REGULATOR_FILE = DATASETS_DIR / "L1_regulators.txt"
+PROCESSED_DIR = DATASETS_DIR / "processed"
 
 class BrainRegions(Enum):
 
