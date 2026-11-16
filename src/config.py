@@ -14,6 +14,7 @@ PHENOTYPES_DICTIONARY_FILE = DATASETS_DIR / "GTEx_Analysis_v11_Annotations_Subje
 FILE_PREFIX = "gene_tpm_adult_gtex_v11_brain_"
 L1_REGULATOR_FILE = DATASETS_DIR / "L1_regulators.txt"
 PROCESSED_DIR = DATASETS_DIR / "processed"
+BEST_MODEL_FILE = PROCESSED_DIR / "best_model_age_groups.joblib"
 
 class BrainRegions(Enum):
 
